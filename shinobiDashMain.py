@@ -248,7 +248,7 @@ def main():
     game_over_pause_duration = 1000  # 1 second
 
     initial_shuriken_speed = shuriken.speed
-    initial_background_speed = 2
+    initial_background_speed = 3
     initial_ground_speed = 6
     initial_clouds_speed = 4
 
