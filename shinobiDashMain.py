@@ -15,42 +15,42 @@ SCREEN = pygame.display.set_mode((SCREENWIDTH, SCREENHEIGHT))
 pygame.display.set_caption('Shinobi Dash')
 
 # LOAD AND SCALE RUNNING IMAGES FOR THE NINJA CHARACTER
-RUNNING = [pygame.transform.scale(pygame.image.load(os.path.join("../.venv/Assets/Ninja", "ninja1.png")), (130, 130)),
+RUNNING = [pygame.transform.scale(pygame.image.load(os.path.join("C:\Users\user\PycharmProjects\shinobiDash\Shinobi-Dash\.venv\Assets\Ninja", "ninja1.png")), (130, 130)),
            pygame.transform.scale(pygame.image.load(os.path.join("../.venv/Assets/Ninja", "ninja2.png")), (130, 130))]
 
 # LOAD AND SCALE JUMPING IMAGES FOR THE NINJA CHARACTER
-JUMPING = [pygame.transform.scale(pygame.image.load(os.path.join("../.venv/Assets/Ninja", "ninjaJump.png")), (130, 130)),
-           pygame.transform.scale(pygame.image.load(os.path.join("../.venv/Assets/Ninja", "ninjaJump2.png")), (130, 130))]
+JUMPING = [pygame.transform.scale(pygame.image.load(os.path.join("C:\Users\user\PycharmProjects\shinobiDash\Shinobi-Dash\.venv\Assets\Ninja", "ninjaJump.png")), (130, 130)),
+           pygame.transform.scale(pygame.image.load(os.path.join("C:\Users\user\PycharmProjects\shinobiDash\Shinobi-Dash\.venv\Assets\Ninja", "ninjaJump2.png")), (130, 130))]
 
 # LOAD AND SCALE DUCKING IMAGES FOR THE NINJA CHARACTER
-DUCKING = [pygame.transform.scale(pygame.image.load(os.path.join("../.venv/Assets/Ninja", "ninjaDuck1.png")), (119, 100)),
-           pygame.transform.scale(pygame.image.load(os.path.join("../.venv/Assets/Ninja", "ninjaDuck2.png")), (119, 100))]
+DUCKING = [pygame.transform.scale(pygame.image.load(os.path.join("C:\Users\user\PycharmProjects\shinobiDash\Shinobi-Dash\.venv\Assets\Ninja", "ninjaDuck1.png")), (119, 100)),
+           pygame.transform.scale(pygame.image.load(os.path.join("C:\Users\user\PycharmProjects\shinobiDash\Shinobi-Dash\.venv\Assets\Ninja", "ninjaDuck2.png")), (119, 100))]
 
 # LOAD THE BACKGROUND AND GROUND IMAGES
-BACKGROUND = pygame.image.load(os.path.join("../.venv/Assets/Ninja", "background.jpg"))
-GROUND = pygame.image.load(os.path.join("../.venv/Assets/Ninja", "ground.png"))
-CLOUDS = pygame.image.load(os.path.join("../.venv/Assets/Ninja", "Clouds.png"))
-SUN_IMG = pygame.transform.scale(pygame.image.load(os.path.join("../.venv/Assets/Ninja", "sun.png")), (300, 300))
+BACKGROUND = pygame.image.load(os.path.join("C:\Users\user\PycharmProjects\shinobiDash\Shinobi-Dash\.venv\Assets\Ninja", "background.jpg"))
+GROUND = pygame.image.load(os.path.join("C:\Users\user\PycharmProjects\shinobiDash\Shinobi-Dash\.venv\Assets\Ninja", "ground.png"))
+CLOUDS = pygame.image.load(os.path.join("C:\Users\user\PycharmProjects\shinobiDash\Shinobi-Dash\.venv\Assets\Ninja", "Clouds.png"))
+SUN_IMG = pygame.transform.scale(pygame.image.load(os.path.join("C:\Users\user\PycharmProjects\shinobiDash\Shinobi-Dash\.venv\Assets\Ninja", "sun.png")), (300, 300))
 
 # Load the shuriken image
-SHURIKEN_IMAGE = pygame.transform.scale(pygame.image.load(os.path.join("../.venv/Assets/Ninja", "shuriken1.png")), (50, 30))
-KUNAI_IMG = pygame.transform.scale(pygame.image.load(os.path.join("../.venv/Assets/Ninja", "kunai.png")), (120, 20))
+SHURIKEN_IMAGE = pygame.transform.scale(pygame.image.load(os.path.join("C:\Users\user\PycharmProjects\shinobiDash\Shinobi-Dash\.venv\Assets\Ninja", "shuriken1.png")), (50, 30))
+KUNAI_IMG = pygame.transform.scale(pygame.image.load(os.path.join("C:\Users\user\PycharmProjects\shinobiDash\Shinobi-Dash\.venv\Assets\Ninja", "kunai.png")), (120, 20))
 
-LOGO = pygame.transform.scale(pygame.image.load(os.path.join("../.venv/Assets/Ninja", "Logo.png")), (675, 375))
+LOGO = pygame.transform.scale(pygame.image.load(os.path.join("C:\Users\user\PycharmProjects\shinobiDash\Shinobi-Dash\.venv\Assets\Ninja", "Logo.png")), (675, 375))
 # Load font for Game Over text
 FONT = pygame.font.SysFont('comicsans', 40)
 JUMP_HIGH = 8.5
 
 # Load sound effects and background music
-JUMP_SOUND = pygame.mixer.Sound(os.path.join("../.venv/Assets/SoundEffect", "slideClick.mp3"))
-DUCK_SOUND = pygame.mixer.Sound(os.path.join("../.venv/Assets/SoundEffect", "woosh.mp3"))
-SHURIKEN_SOUND = pygame.mixer.Sound(os.path.join("../.venv/Assets/SoundEffect", "woosh.mp3"))
+JUMP_SOUND = pygame.mixer.Sound(os.path.join("C:\Users\user\PycharmProjects\shinobiDash\Shinobi-Dash\.venv\Assets\SoundEffect", "slideClick.mp3"))
+DUCK_SOUND = pygame.mixer.Sound(os.path.join("C:\Users\user\PycharmProjects\shinobiDash\Shinobi-Dash\.venv\Assets\SoundEffect", "woosh.mp3"))
+SHURIKEN_SOUND = pygame.mixer.Sound(os.path.join("C:\Users\user\PycharmProjects\shinobiDash\Shinobi-Dash\.venv\Assets\SoundEffect", "woosh.mp3"))
 
 # Load game over sound
-GAME_OVER_SOUND = pygame.mixer.Sound(os.path.join("../.venv/Assets/Music", "thrash.mp3"))
+GAME_OVER_SOUND = pygame.mixer.Sound(os.path.join("C:\Users\user\PycharmProjects\shinobiDash\Shinobi-Dash\.venv\Assets\Music", "thrash.mp3"))
 
 # Load background music track
-BACKGROUND_MUSIC = os.path.join("../.venv/Assets/Music", "knight.mp3")
+BACKGROUND_MUSIC = os.path.join("C:\Users\user\PycharmProjects\shinobiDash\Shinobi-Dash\.venv\Assets\Music", "knight.mp3")
 
 def play_background_music():
     GAME_OVER_SOUND.stop()  # Stop the game over music
